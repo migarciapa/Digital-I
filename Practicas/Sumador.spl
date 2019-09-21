@@ -1,0 +1,11 @@
+[Inputs]
+A
+B
+Ci
+[Outputs]
+S
+Co
+[BiDir]
+[ATTRIBUTES]
+VeriModel Sumador
+

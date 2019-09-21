@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/xst"
+elaborate
+-ifn Sumador.prj
+-ifmt mixed
