@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Decodificador_7S.xst" -ofn "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Decodificador_7S.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "Decodificador_7S.ngc" Decodificador_7S.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Decodificador_7S_map.ncd Decodificador_7S.ngd Decodificador_7S.pcf 
+par -w -intstyle ise -ol high -t 1 Decodificador_7S_map.ncd Decodificador_7S.ncd Decodificador_7S.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Decodificador_7S.twx Decodificador_7S.ncd -o Decodificador_7S.twr Decodificador_7S.pcf 
+bitgen -intstyle ise -f Decodificador_7S.ut Decodificador_7S.ncd 

@@ -1,0 +1,4 @@
+verilog work "Sumador.v"
+verilog work "Sumador_4B.v"
+verilog work "Decodificador_7S.v"
+verilog work "Suma_Display.v"

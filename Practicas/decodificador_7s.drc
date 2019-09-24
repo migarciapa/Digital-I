@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Sep 23 12:14:51 2019
+
+drc -z Decodificador_7S.ncd Decodificador_7S.pcf
+
+DRC detected 0 errors and 0 warnings.

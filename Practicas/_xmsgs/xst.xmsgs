@@ -5,10 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Comparador_4B.v&quot; line 12 </arg>Connection to input port &apos;<arg fmt="%s" index="2">Ei</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;Sumador_4B.v&quot; line 12 </arg>Connection to input port &apos;<arg fmt="%s" index="2">Ci</arg>&apos; does not match port size
 </msg>
 
-<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Comparador_4B.v&quot; line 12 </arg>Connection to input port &apos;<arg fmt="%s" index="2">Gi</arg>&apos; does not match port size
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;Suma_Display.v&quot; line 13 </arg>Connection to output port &apos;<arg fmt="%s" index="2">D</arg>&apos; does not match port size
 </msg>
 
 </messages>
