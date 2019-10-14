@@ -12,7 +12,7 @@ module Displayer_4_7S(D,An,clk,X);
 	wire [3:0] a;
 	wire [3:0] y;
 	
-	Divisor_Frecuencia div (.clk(clk),.relation(25),.Oclk(cont));
+	Divisor_Frecuencia div (.clk(clk),.relacion(10),.Oclk(cont));
 	Contador_2B con (.clk(cont),.O(n));
 	Demultiplexor_1X4 dem (.I(1),.S(n),.O(a));
 	not(An[0],a[3]);

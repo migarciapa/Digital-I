@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj Practicas -o "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Displayer_4_7S.tfi" -lib work "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas//Displayer_4_7S.v" -module Displayer_4_7S -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work {C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Displayer_4_7S.v} -lang verilog -prj Practicas -o Displayer_4_7S.spl -module Displayer_4_7S -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Displayer_4_7S.spl {C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Displayer_4_7S.sym} 

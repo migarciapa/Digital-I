@@ -4,7 +4,7 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   21:58:39 10/07/2019
+// Create Date:   11:14:27 10/14/2019
 // Design Name:   Suma_Display
 // Module Name:   C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Test.v
 // Project Name:  Practicas
@@ -44,12 +44,12 @@ module Test;
 
 	initial begin
 		// Initialize Inputs
-		A = 15;
-		B = 14;
+		A = 10;
+		B = 11;
 		clk = 0;
 
 		// Wait 100 ns for global reset to finish
-		while(1)begin
+		while (1) begin
 			#1;
 			clk=~clk;
 		end

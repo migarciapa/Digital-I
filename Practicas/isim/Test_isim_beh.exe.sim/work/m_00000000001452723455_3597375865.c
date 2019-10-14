@@ -22,8 +22,8 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Test.v";
-static int ng1[] = {15, 0};
-static int ng2[] = {14, 0};
+static int ng1[] = {10, 0};
+static int ng2[] = {11, 0};
 static int ng3[] = {0, 0};
 static int ng4[] = {1, 0};
 

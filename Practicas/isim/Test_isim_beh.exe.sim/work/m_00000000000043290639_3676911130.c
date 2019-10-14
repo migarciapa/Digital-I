@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static int ng0[] = {25, 0};
+static int ng0[] = {10, 0};
 static int ng1[] = {1, 0};
 
 

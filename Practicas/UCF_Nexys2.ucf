@@ -1,7 +1,7 @@
 ##NEXYS 2 UCF SIMPLIFIED FILE
 #
 #//clock pin for Nexys 2 Board
-#NET "clk"   LOC = "B8";	#clk
+NET "clk"   LOC = "B8";	#clk
 #
 #//USB controller
 #NET "EppAstb"   LOC = "V14";
@@ -89,19 +89,19 @@
 #NET "MemDB<15>" LOC = "T1";
 #
 #//7 segment display
-#NET "seg<0>" LOC = "L18";	#segA
-#NET "seg<1>" LOC = "F18";	#segB
-#NET "seg<2>" LOC = "D17";	#segC
-#NET "seg<3>" LOC = "D16";	#segD
-#NET "seg<4>" LOC = "G14";	#segE
-#NET "seg<5>" LOC = "J17";	#segF
-#NET "seg<6>" LOC = "H14";	#segG
+NET "D<0>" LOC = "L18";	#segA
+NET "D<1>" LOC = "F18";	#segB
+NET "D<2>" LOC = "D17";	#segC
+NET "D<3>" LOC = "D16";	#segD
+NET "D<4>" LOC = "G14";	#segE
+NET "D<5>" LOC = "J17";	#segF
+NET "D<6>" LOC = "H14";	#segG
 #NET "dp"     LOC = "C17";	#Dp
 #
-#NET "an<0>" LOC = "F17";	#An0
-#NET "an<1>" LOC = "H17";	#An1
-#NET "an<2>" LOC = "C18";	#An2
-#NET "an<3>" LOC = "F15";	#An3
+NET "An<0>" LOC = "F17";	#An0
+NET "An<1>" LOC = "H17";	#An1
+NET "An<2>" LOC = "C18";	#An2
+NET "An<3>" LOC = "F15";	#An3
 #
 #//Leds
 #NET "Led<0>"  LOC = "J14";	#Led0
@@ -114,14 +114,14 @@
 #NET "Led<7>"  LOC = "R4";	#Led7
 #
 #//Switches
-#NET "sw<0>" LOC = "G18";	#sw0
-#NET "sw<1>" LOC = "H18";	#sw1
-#NET "sw<2>" LOC = "K18";	#sw2
-#NET "sw<3>" LOC = "K17";	#sw3
-#NET "sw<4>" LOC = "L14";	#sw4
-#NET "sw<5>" LOC = "L13";	#sw5
-#NET "sw<6>" LOC = "N17";	#sw6
-#NET "sw<7>" LOC = "R17";	#sw7
+NET "A<0>" LOC = "G18";	#sw0
+NET "A<1>" LOC = "H18";	#sw1
+NET "A<2>" LOC = "K18";	#sw2
+NET "A<3>" LOC = "K17";	#sw3
+NET "B<0>" LOC = "L14";	#sw4
+NET "B<1>" LOC = "L13";	#sw5
+NET "B<2>" LOC = "N17";	#sw6
+NET "B<3>" LOC = "R17";	#sw7
 #
 #//Buttons
 #NET "btn<0>" LOC = "B18";	#btn0
