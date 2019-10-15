@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total CPU time to Xst completion: 0.41 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.34 secs
+Total CPU time to Xst completion: 0.42 secs
  
 --> Reading design: Suma_Display.prj
 
@@ -119,8 +119,10 @@ Compiling verilog file "Sumador_4B.v" in library work
 Module <Contador_2B> compiled
 Compiling verilog file "Displayer_4_7S.v" in library work
 Module <Sumador_4B> compiled
-Compiling verilog file "Suma_Display.v" in library work
+Compiling verilog file "Decodificador_BCD_12B.v" in library work
 Module <Displayer_4_7S> compiled
+Compiling verilog file "Suma_Display.v" in library work
+Module <Decodificador_BCD_12B> compiled
 Module <Suma_Display> compiled
 No errors in compilation
 Analysis of file <"Suma_Display.prj"> succeeded.
@@ -132,6 +134,8 @@ Analysis of file <"Suma_Display.prj"> succeeded.
 Analyzing hierarchy for module <Suma_Display> in library <work>.
 
 Analyzing hierarchy for module <Sumador_4B> in library <work>.
+
+Analyzing hierarchy for module <Decodificador_BCD_12B> in library <work>.
 
 Analyzing hierarchy for module <Displayer_4_7S> in library <work>.
 
@@ -160,6 +164,9 @@ Module <Sumador_4B> is correct for synthesis.
 Analyzing module <Sumador> in library <work>.
 Module <Sumador> is correct for synthesis.
  
+Analyzing module <Decodificador_BCD_12B> in library <work>.
+Module <Decodificador_BCD_12B> is correct for synthesis.
+ 
 Analyzing module <Displayer_4_7S> in library <work>.
 Module <Displayer_4_7S> is correct for synthesis.
  
@@ -184,6 +191,109 @@ Module <Decodificador_7S> is correct for synthesis.
 =========================================================================
 
 Performing bidirectional port resolution...
+
+Synthesizing Unit <Decodificador_BCD_12B>.
+    Related source file is "Decodificador_BCD_12B.v".
+WARNING:Xst:646 - Signal <x> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16-bit register for signal <O>.
+    Found 28-bit adder for signal <old_x_10$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_10$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_11$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_11$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_12$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_12$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_14$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_14$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_15$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_15$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_16$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_16$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_17$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_17$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_19$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_19$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_20$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_20$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_21$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_21$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_22$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_22$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_24$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_24$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_25$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_25$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_26$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_26$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_27$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_27$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_29$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_29$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_30$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_30$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_31$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_31$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_32$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_32$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_34$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_34$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_35$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_35$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_36$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_36$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_37$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_37$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_39$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_39$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_4$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_4$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_40$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_40$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_41$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_41$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_42$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_42$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_44$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_44$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_45$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_45$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_46$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_46$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_47$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_47$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_49$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_49$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_5$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_5$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_50$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_50$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_51$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_51$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_52$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_52$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_54$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_54$cmp_ge0000> created at line 25.
+    Found 28-bit adder for signal <old_x_55$addsub0000> created at line 28.
+    Found 4-bit comparator greatequal for signal <old_x_55$cmp_ge0000> created at line 27.
+    Found 28-bit adder for signal <old_x_56$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_56$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_57$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_57$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_6$addsub0000> created at line 30.
+    Found 4-bit comparator greatequal for signal <old_x_6$cmp_ge0000> created at line 29.
+    Found 28-bit adder for signal <old_x_7$addsub0000> created at line 32.
+    Found 4-bit comparator greatequal for signal <old_x_7$cmp_ge0000> created at line 31.
+    Found 28-bit adder for signal <old_x_9$addsub0000> created at line 26.
+    Found 4-bit comparator greatequal for signal <old_x_9$cmp_ge0000> created at line 25.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+	inferred  44 Adder/Subtractor(s).
+	inferred  44 Comparator(s).
+Unit <Decodificador_BCD_12B> synthesized.
+
 
 Synthesizing Unit <Sumador>.
     Related source file is "Sumador.v".
@@ -245,13 +355,17 @@ Unit <Suma_Display> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 1
+# Adders/Subtractors                                   : 45
+ 28-bit adder                                          : 44
  32-bit adder                                          : 1
 # Counters                                             : 2
  2-bit up counter                                      : 1
  32-bit up counter                                     : 1
-# Registers                                            : 1
+# Registers                                            : 2
  1-bit register                                        : 1
+ 16-bit register                                       : 1
+# Comparators                                          : 44
+ 4-bit comparator greatequal                           : 44
 # Xors                                                 : 8
  1-bit xor2                                            : 8
 
@@ -266,13 +380,17 @@ Macro Statistics
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Adders/Subtractors                                   : 1
+# Adders/Subtractors                                   : 45
+ 27-bit adder                                          : 33
+ 28-bit adder                                          : 11
  32-bit adder                                          : 1
 # Counters                                             : 2
  2-bit up counter                                      : 1
  32-bit up counter                                     : 1
-# Registers                                            : 1
- Flip-Flops                                            : 1
+# Registers                                            : 17
+ Flip-Flops                                            : 17
+# Comparators                                          : 44
+ 4-bit comparator greatequal                           : 44
 # Xors                                                 : 8
  1-bit xor2                                            : 8
 
@@ -281,8 +399,19 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:1293 - FF/Latch <O_7> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_8> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_9> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_10> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_11> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_12> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_13> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_14> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <O_15> has a constant value of 0 in block <Decodificador_BCD_12B>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <Suma_Display> ...
+
+Optimizing unit <Decodificador_BCD_12B> ...
 
 Optimizing unit <Displayer_4_7S> ...
 
@@ -296,8 +425,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 35
- Flip-Flops                                            : 35
+# Registers                                            : 42
+ Flip-Flops                                            : 42
 
 =========================================================================
 
@@ -323,29 +452,29 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 22
+# IOs                              : 20
 
 Cell Usage :
-# BELS                             : 236
+# BELS                             : 271
 #      GND                         : 1
 #      INV                         : 3
 #      LUT1                        : 62
-#      LUT2                        : 7
-#      LUT3                        : 4
-#      LUT4                        : 21
-#      MUXCY                       : 70
+#      LUT2                        : 8
+#      LUT3                        : 9
+#      LUT4                        : 32
+#      MUXCY                       : 78
 #      MUXF5                       : 3
 #      VCC                         : 1
-#      XORCY                       : 64
-# FlipFlops/Latches                : 35
-#      FD                          : 1
+#      XORCY                       : 74
+# FlipFlops/Latches                : 42
+#      FD                          : 8
 #      FDE                         : 1
 #      FDR                         : 33
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 21
+# IO Buffers                       : 19
 #      IBUF                        : 8
-#      OBUF                        : 13
+#      OBUF                        : 11
 =========================================================================
 
 Device utilization summary:
@@ -353,11 +482,11 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                       50  out of   4656     1%  
- Number of Slice Flip Flops:             35  out of   9312     0%  
- Number of 4 input LUTs:                 97  out of   9312     1%  
- Number of IOs:                          22
- Number of bonded IOBs:                  22  out of    232     9%  
+ Number of Slices:                       61  out of   4656     1%  
+ Number of Slice Flip Flops:             42  out of   9312     0%  
+ Number of 4 input LUTs:                114  out of   9312     1%  
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    232     8%  
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -381,8 +510,8 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
+dis/div/Oclk                       | NONE(dd/O_6)           | 9     |
 clk                                | BUFGP                  | 33    |
-dis/div/Oclk                       | NONE(dis/con/O_1)      | 2     |
 -----------------------------------+------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -395,9 +524,9 @@ Timing Summary:
 Speed Grade: -4
 
    Minimum period: 8.934ns (Maximum Frequency: 111.938MHz)
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: 9.089ns
-   Maximum combinational path delay: 11.847ns
+   Minimum input arrival time before clock: 10.995ns
+   Maximum output required time after clock: 7.569ns
+   Maximum combinational path delay: No path found
 
 Timing Detail:
 --------------
@@ -419,38 +548,38 @@ Delay:               8.934ns (Levels of Logic = 34)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDR:C->Q              2   0.591   0.622  dis/div/i_1 (dis/div/i_1)
-     LUT1:I0->O            1   0.704   0.000  dis/div/Madd__old_i_3_cy<1>_rt (dis/div/Madd__old_i_3_cy<1>_rt)
-     MUXCY:S->O            1   0.464   0.000  dis/div/Madd__old_i_3_cy<1> (dis/div/Madd__old_i_3_cy<1>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<2> (dis/div/Madd__old_i_3_cy<2>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<3> (dis/div/Madd__old_i_3_cy<3>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<4> (dis/div/Madd__old_i_3_cy<4>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<5> (dis/div/Madd__old_i_3_cy<5>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<6> (dis/div/Madd__old_i_3_cy<6>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<7> (dis/div/Madd__old_i_3_cy<7>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<8> (dis/div/Madd__old_i_3_cy<8>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<9> (dis/div/Madd__old_i_3_cy<9>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<10> (dis/div/Madd__old_i_3_cy<10>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<11> (dis/div/Madd__old_i_3_cy<11>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<12> (dis/div/Madd__old_i_3_cy<12>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<13> (dis/div/Madd__old_i_3_cy<13>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<14> (dis/div/Madd__old_i_3_cy<14>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<15> (dis/div/Madd__old_i_3_cy<15>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<16> (dis/div/Madd__old_i_3_cy<16>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<17> (dis/div/Madd__old_i_3_cy<17>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<18> (dis/div/Madd__old_i_3_cy<18>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<19> (dis/div/Madd__old_i_3_cy<19>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<20> (dis/div/Madd__old_i_3_cy<20>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<21> (dis/div/Madd__old_i_3_cy<21>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<22> (dis/div/Madd__old_i_3_cy<22>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<23> (dis/div/Madd__old_i_3_cy<23>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<24> (dis/div/Madd__old_i_3_cy<24>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<25> (dis/div/Madd__old_i_3_cy<25>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<26> (dis/div/Madd__old_i_3_cy<26>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<27> (dis/div/Madd__old_i_3_cy<27>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<28> (dis/div/Madd__old_i_3_cy<28>)
-     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_3_cy<29> (dis/div/Madd__old_i_3_cy<29>)
-     MUXCY:CI->O           0   0.059   0.000  dis/div/Madd__old_i_3_cy<30> (dis/div/Madd__old_i_3_cy<30>)
-     XORCY:CI->O           1   0.804   0.424  dis/div/Madd__old_i_3_xor<31> (dis/div/_old_i_3<31>)
+     LUT1:I0->O            1   0.704   0.000  dis/div/Madd__old_i_60_cy<1>_rt (dis/div/Madd__old_i_60_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  dis/div/Madd__old_i_60_cy<1> (dis/div/Madd__old_i_60_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<2> (dis/div/Madd__old_i_60_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<3> (dis/div/Madd__old_i_60_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<4> (dis/div/Madd__old_i_60_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<5> (dis/div/Madd__old_i_60_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<6> (dis/div/Madd__old_i_60_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<7> (dis/div/Madd__old_i_60_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<8> (dis/div/Madd__old_i_60_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<9> (dis/div/Madd__old_i_60_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<10> (dis/div/Madd__old_i_60_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<11> (dis/div/Madd__old_i_60_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<12> (dis/div/Madd__old_i_60_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<13> (dis/div/Madd__old_i_60_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<14> (dis/div/Madd__old_i_60_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<15> (dis/div/Madd__old_i_60_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<16> (dis/div/Madd__old_i_60_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<17> (dis/div/Madd__old_i_60_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<18> (dis/div/Madd__old_i_60_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<19> (dis/div/Madd__old_i_60_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<20> (dis/div/Madd__old_i_60_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<21> (dis/div/Madd__old_i_60_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<22> (dis/div/Madd__old_i_60_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<23> (dis/div/Madd__old_i_60_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<24> (dis/div/Madd__old_i_60_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<25> (dis/div/Madd__old_i_60_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<26> (dis/div/Madd__old_i_60_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<27> (dis/div/Madd__old_i_60_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<28> (dis/div/Madd__old_i_60_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  dis/div/Madd__old_i_60_cy<29> (dis/div/Madd__old_i_60_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  dis/div/Madd__old_i_60_cy<30> (dis/div/Madd__old_i_60_cy<30>)
+     XORCY:CI->O           1   0.804   0.424  dis/div/Madd__old_i_60_xor<31> (dis/div/_old_i_60<31>)
      LUT4:I3->O            1   0.704   0.000  dis/div/i_cmp_eq0000_wg_lut<7> (dis/div/i_cmp_eq0000_wg_lut<7>)
      MUXCY:S->O           33   0.736   1.263  dis/div/i_cmp_eq0000_wg_cy<7> (dis/div/i_cmp_eq0000)
      FDR:R                     0.911          dis/div/i_0
@@ -460,10 +589,10 @@ Delay:               8.934ns (Levels of Logic = 34)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'dis/div/Oclk'
-  Clock period: 2.778ns (frequency: 359.971MHz)
+  Clock period: 2.598ns (frequency: 384.911MHz)
   Total number of paths / destination ports: 3 / 2
 -------------------------------------------------------------------------
-Delay:               2.778ns (Levels of Logic = 1)
+Delay:               2.598ns (Levels of Logic = 1)
   Source:            dis/con/O_1 (FF)
   Destination:       dis/con/O_1 (FF)
   Source Clock:      dis/div/Oclk rising
@@ -473,71 +602,71 @@ Delay:               2.778ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              14   0.591   1.175  dis/con/O_1 (dis/con/O_1)
+     FD:C->Q               9   0.591   0.995  dis/con/O_1 (dis/con/O_1)
      LUT2:I0->O            1   0.704   0.000  dis/con/Mcount_O_xor<1>11 (dis/Result<1>)
      FD:D                      0.308          dis/con/O_1
     ----------------------------------------
-    Total                      2.778ns (1.603ns logic, 1.175ns route)
-                                       (57.7% logic, 42.3% route)
+    Total                      2.598ns (1.603ns logic, 0.995ns route)
+                                       (61.7% logic, 38.3% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'dis/div/Oclk'
-  Total number of paths / destination ports: 101 / 13
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dis/div/Oclk'
+  Total number of paths / destination ports: 1206 / 7
 -------------------------------------------------------------------------
-Offset:              9.089ns (Levels of Logic = 5)
-  Source:            dis/con/O_1 (FF)
-  Destination:       D<0> (PAD)
-  Source Clock:      dis/div/Oclk rising
-
-  Data Path: dis/con/O_1 to D<0>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q              14   0.591   1.035  dis/con/O_1 (dis/con/O_1)
-     LUT4:I2->O            1   0.704   0.455  dis/mu0/Q15 (dis/mu0/Q15)
-     LUT3:I2->O            1   0.704   0.000  dis/mu0/Q76_G (N15)
-     MUXF5:I1->O           7   0.321   0.883  dis/mu0/Q76 (dis/y<0>)
-     LUT4:I0->O            1   0.704   0.420  dis/dec/D_0_not00001 (D_0_OBUF)
-     OBUF:I->O                 3.272          D_0_OBUF (D<0>)
-    ----------------------------------------
-    Total                      9.089ns (6.296ns logic, 2.793ns route)
-                                       (69.3% logic, 30.7% route)
-
-=========================================================================
-Timing constraint: Default path analysis
-  Total number of paths / destination ports: 231 / 7
--------------------------------------------------------------------------
-Delay:               11.847ns (Levels of Logic = 8)
+Offset:              10.995ns (Levels of Logic = 8)
   Source:            A<1> (PAD)
-  Destination:       D<0> (PAD)
+  Destination:       dd/O_6 (FF)
+  Destination Clock: dis/div/Oclk rising
 
-  Data Path: A<1> to D<0>
+  Data Path: A<1> to dd/O_6
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             3   1.218   0.706  A_1_IBUF (A_1_IBUF)
-     LUT4:I0->O            2   0.704   0.526  sum/S1/Co1 (sum/C2)
-     LUT3:I1->O            2   0.704   0.526  sum/S2/Co1 (sum/C3)
-     LUT4:I1->O            1   0.704   0.455  dis/mu0/Q15 (dis/mu0/Q15)
-     LUT3:I2->O            1   0.704   0.000  dis/mu0/Q76_G (N15)
-     MUXF5:I1->O           7   0.321   0.883  dis/mu0/Q76 (dis/y<0>)
-     LUT4:I0->O            1   0.704   0.420  dis/dec/D_0_not00001 (D_0_OBUF)
-     OBUF:I->O                 3.272          D_0_OBUF (D<0>)
+     LUT4:I0->O            4   0.704   0.666  sum/S1/Co1 (sum/C2)
+     LUT3:I1->O            4   0.704   0.622  sum/S2/Co1 (sum/C3)
+     LUT3:I2->O            9   0.704   0.824  sum/S3/Mxor_S_Result1 (S<3>)
+     LUT4:I3->O            1   0.704   0.424  dd/old_x_54_cmp_ge00006 (dd/old_x_54_cmp_ge00006)
+     LUT4:I3->O            1   0.704   0.455  dd/old_x_54_cmp_ge00009 (dd/old_x_54_cmp_ge00009)
+     LUT4:I2->O            6   0.704   0.844  dd/old_x_54_cmp_ge000036 (dd/old_x_54_cmp_ge0000)
+     LUT3:I0->O            1   0.704   0.000  dd/_old_x_54<12>1 (dd/_old_x_54<12>)
+     FD:D                      0.308          dd/O_1
     ----------------------------------------
-    Total                     11.847ns (8.331ns logic, 3.516ns route)
-                                       (70.3% logic, 29.7% route)
+    Total                     10.995ns (6.454ns logic, 4.541ns route)
+                                       (58.7% logic, 41.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dis/div/Oclk'
+  Total number of paths / destination ports: 113 / 11
+-------------------------------------------------------------------------
+Offset:              7.569ns (Levels of Logic = 3)
+  Source:            dis/con/O_1 (FF)
+  Destination:       D<6> (PAD)
+  Source Clock:      dis/div/Oclk rising
+
+  Data Path: dis/con/O_1 to D<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.591   0.995  dis/con/O_1 (dis/con/O_1)
+     LUT4:I0->O            7   0.704   0.883  dis/mu1/Q1 (dis/y<1>)
+     LUT4:I0->O            1   0.704   0.420  dis/dec/D_2_not00001 (D_2_OBUF)
+     OBUF:I->O                 3.272          D_2_OBUF (D<2>)
+    ----------------------------------------
+    Total                      7.569ns (5.271ns logic, 2.298ns route)
+                                       (69.6% logic, 30.4% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 20.00 secs
-Total CPU time to Xst completion: 19.86 secs
+Total REAL time to Xst completion: 24.00 secs
+Total CPU time to Xst completion: 24.01 secs
  
 --> 
 
-Total memory usage is 250872 kilobytes
+Total memory usage is 267048 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    2 (   0 filtered)
+Number of warnings :   17 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

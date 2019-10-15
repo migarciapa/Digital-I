@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Oct 15 10:16:01 2019
+Tue Oct 15 10:39:20 2019
 
 drc -z Suma_Display.ncd Suma_Display.pcf
 

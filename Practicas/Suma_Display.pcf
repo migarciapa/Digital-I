@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Oct 15 10:15:04 2019
+// Written by: Map P.20131013 on Tue Oct 15 10:38:21 2019
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -20,9 +20,7 @@ COMP "D<3>" LOCATE = SITE "D16" LEVEL 1;
 COMP "D<4>" LOCATE = SITE "G14" LEVEL 1;
 COMP "D<5>" LOCATE = SITE "J17" LEVEL 1;
 COMP "D<6>" LOCATE = SITE "H14" LEVEL 1;
-COMP "e<0>" LOCATE = SITE "J14" LEVEL 1;
 COMP "An<0>" LOCATE = SITE "F17" LEVEL 1;
-COMP "e<1>" LOCATE = SITE "J15" LEVEL 1;
 COMP "An<1>" LOCATE = SITE "H17" LEVEL 1;
 COMP "An<2>" LOCATE = SITE "C18" LEVEL 1;
 NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;

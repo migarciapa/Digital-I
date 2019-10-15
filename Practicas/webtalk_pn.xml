@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Tue Oct 15 10:15:09 2019">
+<application name="pn" timeStamp="Tue Oct 15 10:38:26 2019">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="6EA3ED6A4B0E45A1AEC32BF00FC48560" type="project"/>
-<property name="ProjectIteration" value="23" type="project"/>
+<property name="ProjectIteration" value="24" type="project"/>
 <property name="ProjectFile" value="C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practicas.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2019-09-20T16:02:36" type="project"/>
 </section>
@@ -27,7 +27,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2019-09-20T16:02:36" type="design"/>
 <property name="PROP_intWbtProjectID" value="6EA3ED6A4B0E45A1AEC32BF00FC48560" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="23" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="24" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
@@ -42,7 +42,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_DevSpeed" value="-4" type="design"/>
 <property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
 <property name="FILE_UCF" value="1" type="source"/>
-<property name="FILE_VERILOG" value="10" type="source"/>
+<property name="FILE_VERILOG" value="11" type="source"/>
 </section>
 </application>
 </document>

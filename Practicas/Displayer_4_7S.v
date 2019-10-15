@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 
-module Displayer_4_7S(D,An,clk,X,n);
+module Displayer_4_7S(D,An,clk,X,cont);
 	
 	output [6:0] D;
 	output [3:0] An;
 	input clk;
 	input [15:0] X;
 	
-	wire cont;
-	output [1:0] n;
+	output cont;
+	wire [1:0] n;
 	wire [3:0] a;
 	wire [3:0] y;
 	
