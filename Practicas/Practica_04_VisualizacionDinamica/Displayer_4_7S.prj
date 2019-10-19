@@ -1,0 +1,5 @@
+verilog work "../Biblioteca/Multiplexor_4X1.v"
+verilog work "../Biblioteca/Demultiplexor_1X4.v"
+verilog work "../Biblioteca/Decodificador_7S.v"
+verilog work "../Biblioteca/Contador_2B.v"
+verilog work "../Biblioteca/Displayer_4_7S.v"

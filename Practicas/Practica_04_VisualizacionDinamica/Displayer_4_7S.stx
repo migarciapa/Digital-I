@@ -1,0 +1,45 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_04_VisualizacionDinamica/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_04_VisualizacionDinamica/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../Biblioteca/Multiplexor_4X1.v" in library work
+Compiling verilog file "../Biblioteca/Demultiplexor_1X4.v" in library work
+Module <Multiplexor_4X1> compiled
+Compiling verilog file "../Biblioteca/Decodificador_7S.v" in library work
+Module <Demultiplexor_1X4> compiled
+Compiling verilog file "../Biblioteca/Contador_2B.v" in library work
+Module <Decodificador_7S> compiled
+Compiling verilog file "../Biblioteca/Displayer_4_7S.v" in library work
+Module <Contador_2B> compiled
+Module <Displayer_4_7S> compiled
+No errors in compilation
+Analysis of file <"Displayer_4_7S.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.67 secs
+ 
+--> 
+
+Total memory usage is 206100 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,4 @@
+verilog work "../Biblioteca/Sumador.v"
+verilog work "../Biblioteca/Sumador_4B.v"
+verilog work "../Biblioteca/Decodificador_7S.v"
+verilog work "Main.v"

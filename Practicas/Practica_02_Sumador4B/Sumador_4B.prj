@@ -1,0 +1,2 @@
+verilog work "../Biblioteca/Sumador.v"
+verilog work "../Biblioteca/Sumador_4B.v"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_04_VisualizacionDinamica/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_04_VisualizacionDinamica/xst"
+elaborate
+-ifn Decodificador_BCD_16B.prj
+-ifmt mixed

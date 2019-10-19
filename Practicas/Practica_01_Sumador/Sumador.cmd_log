@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_01_Sumador/Sumador.xst" -ofn "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_01_Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Nexys2.ucf -p xc3s500e-fg320-4 "Sumador.ngc" Sumador.ngd  
+xst -intstyle ise -ifn "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_01_Sumador/Sumador.xst" -ofn "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_01_Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UCF_Nexys2.ucf -p xc3s500e-fg320-4 "Sumador.ngc" Sumador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Sumador_map.ncd Sumador.ngd Sumador.pcf 
+par -w -intstyle ise -ol high -t 1 Sumador_map.ncd Sumador.ncd Sumador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Sumador.twx Sumador.ncd -o Sumador.twr Sumador.pcf -ucf UCF_Nexys2.ucf 
+bitgen -intstyle ise -f Sumador.ut Sumador.ncd 
