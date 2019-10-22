@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\USER PC\Trabajo\David\Repositorios\Electronica-Digital\Practicas\Practica_05_SumadorSerial\Main.ncd
+OUTFILE=C:\Users\USER PC\Trabajo\David\Repositorios\Electronica-Digital\Practicas\Practica_05_SumadorSerial\Main.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\USER PC\Trabajo\David\Repositorios\Electronica-Digital\Practicas\Practica_05_SumadorSerial
+LICENSE=WebPack
+USER_INFO=211795229_0_0_235

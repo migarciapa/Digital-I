@@ -1,0 +1,10 @@
+MO Divisor_Frecuencia NULL ../Biblioteca/Divisor_Frecuencia.v vlg14/_divisor___frecuencia.bin 1571758786
+MO Decodificador_7S NULL ../Biblioteca/Decodificador_7S.v vlg75/_decodificador__7_s.bin 1571758786
+MO Multiplexor_4X1 NULL ../Biblioteca/Multiplexor_4X1.v vlg61/_multiplexor__4_x1.bin 1571758786
+MO Sumador NULL ../Biblioteca/Sumador.v vlg7F/_sumador.bin 1571758786
+MO FlipFlop_D NULL ../Biblioteca/FlipFlop_D.v vlg5B/_flip_flop___d.bin 1571758786
+MO Contador_2B NULL ../Biblioteca/Contador_2B.v vlg51/_contador__2_b.bin 1571758786
+MO Registro_Desplazamiento_4B NULL ../Biblioteca/Registro_Desplazamiento_4B.v vlg6B/_registro___desplazamiento__4_b.bin 1571758786
+MO Displayer_4_7S NULL ../Biblioteca/Displayer_4_7S.v vlg4D/_displayer__4__7_s.bin 1571758786
+MO Main NULL Main.v vlg0D/_main.bin 1571758786
+MO Demultiplexor_1X4 NULL ../Biblioteca/Demultiplexor_1X4.v vlg1E/_demultiplexor__1_x4.bin 1571758786

@@ -347,13 +347,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1571153874" xil_pn:in_ck="-9008513896736936856" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-7037778905143589059" xil_pn:start_ts="1571153843">
+    <transform xil_pn:end_ts="1571756386" xil_pn:in_ck="-9008513896736936856" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-7037778905143589059" xil_pn:start_ts="1571756355">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="Decodificador_7S.ngr"/>
@@ -371,31 +369,23 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1571153874" xil_pn:in_ck="112481647050" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8730877788395760211" xil_pn:start_ts="1571153874">
+    <transform xil_pn:end_ts="1571756153" xil_pn:in_ck="112481647050" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8730877788395760211" xil_pn:start_ts="1571756153">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1571153891" xil_pn:in_ck="789238058953334340" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2657638870244452717" xil_pn:start_ts="1571153874">
+    <transform xil_pn:end_ts="1571756404" xil_pn:in_ck="-2142687690852078705" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2657638870244452717" xil_pn:start_ts="1571756386">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Suma_Display.bld"/>
       <outfile xil_pn:name="Suma_Display.ngd"/>
       <outfile xil_pn:name="Suma_Display_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1571153905" xil_pn:in_ck="-2648781629006870455" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1571153891">
+    <transform xil_pn:end_ts="1571756416" xil_pn:in_ck="5823527327017934229" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1571756404">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Suma_Display.pcf"/>
       <outfile xil_pn:name="Suma_Display_map.map"/>
@@ -407,13 +397,10 @@
       <outfile xil_pn:name="Suma_Display_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1571153953" xil_pn:in_ck="-1618413956379469178" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1571153905">
+    <transform xil_pn:end_ts="1571756463" xil_pn:in_ck="2128803727234453355" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1571756416">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Suma_Display.ncd"/>
       <outfile xil_pn:name="Suma_Display.pad"/>
       <outfile xil_pn:name="Suma_Display.par"/>
@@ -425,11 +412,9 @@
       <outfile xil_pn:name="Suma_Display_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1571153976" xil_pn:in_ck="-9143286679195810229" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1571153953">
+    <transform xil_pn:end_ts="1571756485" xil_pn:in_ck="-158769339494151149" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1571756463">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="Suma_Display.ut"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="suma_display.bgn"/>
@@ -439,12 +424,9 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1571153953" xil_pn:in_ck="8447959412710923701" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1571153943">
+    <transform xil_pn:end_ts="1571756463" xil_pn:in_ck="5747557169620669053" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1571756453">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Suma_Display.twr"/>
       <outfile xil_pn:name="Suma_Display.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_05_SumadorSerial/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_05_SumadorSerial/xst"
+elaborate
+-ifn Registro_Desplazamiento_4B.prj
+-ifmt mixed

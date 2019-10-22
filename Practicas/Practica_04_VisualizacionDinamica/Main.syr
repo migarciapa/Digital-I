@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.38 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.38 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> Reading design: Main.prj
 
@@ -68,7 +68,7 @@ Automatic Register Balancing       : No
 
 ---- Target Options
 Add IO Buffers                     : YES
-Global Maximum Fanout              : 500
+Global Maximum Fanout              : 100000
 Add Generic Clock Buffer(BUFG)     : 24
 Register Duplication               : YES
 Slice Packing                      : YES
@@ -206,127 +206,131 @@ Unit <Divisor_Frecuencia> synthesized.
 Synthesizing Unit <Decodificador_BCD_16B>.
     Related source file is "../Biblioteca/Decodificador_BCD_16B.v".
 WARNING:Xst:646 - Signal <x> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s3> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <s0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
     Found 16-bit register for signal <O>.
-    Found 32-bit adder for signal <old_x_10$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_10$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_11$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_11$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_12$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_12$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_14$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_14$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_15$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_15$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_16$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_16$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_17$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_17$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_19$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_19$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_20$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_20$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_21$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_21$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_22$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_22$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_24$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_24$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_25$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_25$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_26$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_26$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_27$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_27$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_29$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_29$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_30$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_30$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_31$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_31$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_32$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_32$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_34$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_34$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_35$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_35$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_36$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_36$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_37$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_37$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_39$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_39$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_4$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_4$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_40$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_40$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_41$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_41$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_42$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_42$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_44$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_44$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_45$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_45$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_46$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_46$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_47$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_47$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_49$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_49$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_5$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_5$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_50$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_50$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_51$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_51$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_52$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_52$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_54$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_54$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_55$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_55$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_56$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_56$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_57$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_57$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_59$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_59$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_6$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_6$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_60$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_60$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_61$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_61$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_62$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_62$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_64$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_64$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_65$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_65$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_66$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_66$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_67$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_67$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_69$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_69$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_7$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_7$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_70$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_70$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_71$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_71$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_72$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_72$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_74$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_74$cmp_ge0000> created at line 16.
-    Found 32-bit adder for signal <old_x_75$addsub0000> created at line 19.
-    Found 4-bit comparator greatequal for signal <old_x_75$cmp_ge0000> created at line 18.
-    Found 32-bit adder for signal <old_x_76$addsub0000> created at line 21.
-    Found 4-bit comparator greatequal for signal <old_x_76$cmp_ge0000> created at line 20.
-    Found 32-bit adder for signal <old_x_77$addsub0000> created at line 23.
-    Found 4-bit comparator greatequal for signal <old_x_77$cmp_ge0000> created at line 22.
-    Found 32-bit adder for signal <old_x_9$addsub0000> created at line 17.
-    Found 4-bit comparator greatequal for signal <old_x_9$cmp_ge0000> created at line 16.
+    Found 32-bit adder for signal <old_x_10$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_10$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_11$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_11$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_12$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_12$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_14$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_14$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_15$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_15$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_16$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_16$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_17$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_17$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_19$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_19$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_20$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_20$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_21$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_21$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_22$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_22$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_24$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_24$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_25$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_25$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_26$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_26$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_27$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_27$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_29$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_29$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_30$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_30$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_31$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_31$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_32$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_32$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_34$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_34$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_35$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_35$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_36$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_36$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_37$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_37$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_39$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_39$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_4$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_4$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_40$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_40$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_41$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_41$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_42$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_42$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_44$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_44$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_45$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_45$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_46$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_46$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_47$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_47$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_49$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_49$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_5$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_5$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_50$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_50$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_51$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_51$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_52$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_52$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_54$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_54$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_55$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_55$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_56$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_56$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_57$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_57$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_59$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_59$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_6$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_6$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_60$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_60$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_61$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_61$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_62$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_62$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_64$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_64$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_65$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_65$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_66$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_66$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_67$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_67$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_69$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_69$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_7$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_7$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_70$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_70$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_71$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_71$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_72$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_72$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_74$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_74$cmp_ge0000> created at line 26.
+    Found 32-bit adder for signal <old_x_75$addsub0000> created at line 29.
+    Found 4-bit comparator greatequal for signal <old_x_75$cmp_ge0000> created at line 28.
+    Found 32-bit adder for signal <old_x_76$addsub0000> created at line 31.
+    Found 4-bit comparator greatequal for signal <old_x_76$cmp_ge0000> created at line 30.
+    Found 32-bit adder for signal <old_x_77$addsub0000> created at line 33.
+    Found 4-bit comparator greatequal for signal <old_x_77$cmp_ge0000> created at line 32.
+    Found 32-bit adder for signal <old_x_9$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <old_x_9$cmp_ge0000> created at line 26.
     Summary:
 	inferred  16 D-type flip-flop(s).
 	inferred  60 Adder/Subtractor(s).
@@ -408,8 +412,8 @@ Advanced HDL Synthesis Report
 
 Macro Statistics
 # Adders/Subtractors                                   : 61
- 31-bit adder                                          : 15
- 32-bit adder                                          : 46
+ 31-bit adder                                          : 45
+ 32-bit adder                                          : 16
 # Counters                                             : 2
  2-bit up counter                                      : 1
  32-bit up counter                                     : 1
@@ -685,14 +689,14 @@ Offset:              7.569ns (Levels of Logic = 3)
 =========================================================================
 
 
-Total REAL time to Xst completion: 28.00 secs
-Total CPU time to Xst completion: 27.85 secs
+Total REAL time to Xst completion: 25.00 secs
+Total CPU time to Xst completion: 25.06 secs
  
 --> 
 
-Total memory usage is 284272 kilobytes
+Total memory usage is 284436 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   10 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

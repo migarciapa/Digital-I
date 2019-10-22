@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-LENOVO-T440::  Sat Oct 19 13:34:39 2019
+LENOVO-T440::  Tue Oct 22 09:19:50 2019
 
 par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
 
@@ -60,13 +60,13 @@ Total REAL time at the beginning of Placer: 4 secs
 Total CPU  time at the beginning of Placer: 4 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:f92f14de) REAL time: 4 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:f92f14de) REAL time: 5 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:f92f14de) REAL time: 4 secs 
+Phase 2.7  Design Feasibility Check (Checksum:f92f14de) REAL time: 5 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:f92f14de) REAL time: 4 secs 
+Phase 3.31  Local Placement Optimization (Checksum:f92f14de) REAL time: 5 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 Phase 4.2  Initial Clock and IO Placement (Checksum:f92f14de) REAL time: 5 secs 
@@ -79,16 +79,16 @@ Phase 6.36  Local Placement Optimization (Checksum:f92f14de) REAL time: 5 secs
 
 Phase 7.8  Global Placement
 ..
-Phase 7.8  Global Placement (Checksum:bc775d5a) REAL time: 5 secs 
+Phase 7.8  Global Placement (Checksum:bd0039b1) REAL time: 5 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:bc775d5a) REAL time: 5 secs 
+Phase 8.5  Local Placement Optimization (Checksum:bd0039b1) REAL time: 5 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:b8953775) REAL time: 5 secs 
+Phase 9.18  Placement Optimization (Checksum:b9079aa7) REAL time: 5 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:b8953775) REAL time: 5 secs 
+Phase 10.5  Local Placement Optimization (Checksum:b9079aa7) REAL time: 5 secs 
 
 Total REAL time to Placer completion: 5 secs 
 Total CPU  time to Placer completion: 5 secs 
@@ -99,28 +99,28 @@ Writing design to file Main.ncd
 Starting Router
 
 
-Phase  1  : 62 unrouted;      REAL time: 17 secs 
+Phase  1  : 62 unrouted;      REAL time: 19 secs 
 
-Phase  2  : 62 unrouted;      REAL time: 17 secs 
+Phase  2  : 62 unrouted;      REAL time: 19 secs 
 
-Phase  3  : 9 unrouted;      REAL time: 17 secs 
+Phase  3  : 7 unrouted;      REAL time: 19 secs 
 
-Phase  4  : 9 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  4  : 7 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
 
 Updating file: Main.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 21 secs 
 
-Total REAL time to Router completion: 19 secs 
-Total CPU time to Router completion: 19 secs 
+Total REAL time to Router completion: 21 secs 
+Total CPU time to Router completion: 20 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -139,8 +139,8 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 20 secs 
-Total CPU time to PAR completion: 20 secs 
+Total REAL time to PAR completion: 23 secs 
+Total CPU time to PAR completion: 22 secs 
 
 Peak Memory Usage:  261 MB
 

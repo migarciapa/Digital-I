@@ -9,10 +9,12 @@ module Main(A,B,D,An,Co);
 	output [3:0] An;
 	
 	wire [3:0] x;
+	wire CC;
 	
 	assign An = 4'b1110;
 	
-	Sumador_4B sum (.X(A),.Y(B),.S(x),.Co(Co));
+	Sumador_4B sum (.X(A),.Y(B),.S(x),.Co(CC));
 	Decodificador_7S d7 (.X(x),.D(D));
+	not(Co,CC);
 	
 endmodule

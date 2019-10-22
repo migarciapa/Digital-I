@@ -1,0 +1,2 @@
+verilog work "../Biblioteca/FlipFlop_D.v"
+verilog work "../Biblioteca/Registro_Desplazamiento_4B.v"

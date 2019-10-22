@@ -12,7 +12,7 @@ module Displayer_4_7S(X,clk,D,An);
 	wire [3:0] y;
 	
 	Contador_2B con (.clk(clk),.O(n));
-	Demultiplexor_1X4 dem (.I(1'b1),.S(n),.O(a));
+	Demultiplexor_1X4 dem (.I(1),.S(n),.O(a));
 	
 	not(An[0],a[0]);
 	not(An[1],a[1]);

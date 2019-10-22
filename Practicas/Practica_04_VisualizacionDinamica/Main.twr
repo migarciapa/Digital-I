@@ -3,7 +3,7 @@ Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
--n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf
+-n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf UCF_Nexys2.ucf
 
 Design file:              Main.ncd
 Physical constraint file: Main.pcf
@@ -44,11 +44,11 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    9.194|         |         |         |
+clk            |    9.624|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sat Oct 19 15:46:34 2019 
+Analysis completed Tue Oct 22 10:08:07 2019 
 --------------------------------------------------------------------------------
 
 Trace Settings:

@@ -2,7 +2,8 @@ Release 14.7 ngdbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Main.ngc Main.ngd
+-intstyle ise -dd _ngo -nt timestamp -uc UCF_Nexys2.ucf -p xc3s500e-fg320-4
+Main.ngc Main.ngd
 
 Reading NGO file "C:/Users/USER
 PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_04_Visualiz
@@ -10,6 +11,7 @@ acionDinamica/Main.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
+Annotating constraints to design from ucf file "UCF_Nexys2.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
 Done...
@@ -27,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 179112 kilobytes
+Total memory usage is 179200 kilobytes
 
 Writing NGD file "Main.ngd" ...
-Total REAL time to NGDBUILD completion:  12 sec
-Total CPU time to NGDBUILD completion:   12 sec
+Total REAL time to NGDBUILD completion:  11 sec
+Total CPU time to NGDBUILD completion:   11 sec
 
 Writing NGDBUILD log file "Main.bld"...
