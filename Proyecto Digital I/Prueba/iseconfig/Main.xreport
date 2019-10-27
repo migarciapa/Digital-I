@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-10-22T16:34:19</DateModified>
+  <DateModified>2019-10-27T08:40:19</DateModified>
   <ModuleName>Main</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_05_SumadorSerial/iseconfig/Main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Practicas/Practica_05_SumadorSerial\</ImplementationReportsDirectory>
-  <DateInitialized>2019-10-22T10:09:14</DateInitialized>
+  <SavedFilePath>C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Proyecto Digital I/Prueba/iseconfig/Main.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/USER PC/Trabajo/David/Repositorios/Electronica-Digital/Proyecto Digital I/Prueba\</ImplementationReportsDirectory>
+  <DateInitialized>2019-10-22T17:03:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

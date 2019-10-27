@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\USER PC\Trabajo\David\Repositorios\Electronica-Digital\Antiguo Proyecto\Suma_Display.ncd
-OUTFILE=C:\Users\USER PC\Trabajo\David\Repositorios\Electronica-Digital\Antiguo Proyecto\Suma_Display.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4fg320
-WORKINGDIR=C:\Users\USER PC\Trabajo\David\Repositorios\Electronica-Digital\Antiguo Proyecto
-LICENSE=WebPack
-USER_INFO=211795229_0_0_235
